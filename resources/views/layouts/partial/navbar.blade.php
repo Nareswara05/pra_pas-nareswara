@@ -17,6 +17,9 @@
           <li class="nav-item">
             <a class="nav-link" href="/student/all">Murid</a>
           </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/acaraa/all">Acara</a>
+          </li>
         </ul>
       </div>
     </div>

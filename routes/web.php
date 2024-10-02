@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\AcaraController;
 use App\Http\Controllers\GuruController;
 use App\Http\Controllers\MuridController;
 use Illuminate\Support\Facades\Route;
@@ -29,3 +30,5 @@ Route::get('/student/all', [MuridController::class, 'index'])->name('student.all
 Route::get('/student/detail/{student}', [MuridController::class, 'show']);
 Route::get('/teacher/all', [GuruController::class, 'index'])->name('teacher.all');
 Route::get('/teacher/detail/{teacher}', [GuruController::class, 'show']);
+Route::get('/acaraa/all', [AcaraController::class, 'index'])->name('acaraa.all');
+Route::get('/acaraa/detail/{acaras}', [AcaraController::class, 'show']);
